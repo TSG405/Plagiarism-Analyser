@@ -15,7 +15,8 @@ def cosineSimilarity():
 		if word not in universalSetOfUniqueWords:
 			universalSetOfUniqueWords.append(word)
 
-
+	#fd = open("database1.txt", "r")
+	#database1 = fd.read().lower()
 	fd = "Hi, I am Tanmoy, this is just a test 405"
 	database1 = fd.lower()
 
